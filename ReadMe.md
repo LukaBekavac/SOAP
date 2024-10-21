@@ -41,3 +41,14 @@ The following table outlines the key classes and their respective functions:
 ## Reliability Testing
 
 Before deploying a new prompt for creating filter bubbles, it is recommended to conduct reliability testing with the prompt and the multimodal language model (LLM). Code for both inter-reliability and intra-reliability testing can be found in the `/reliability-evaluation/` directory.
+
+## Contact
+
+If you have questions about the prototype or the publication, feel free to contact Luka Bekavac ([lukajurelars.bekavac@student.unisg.ch](mailto:lukajurelars.bekavac@student.unisg.ch)).
+
+This research was conducted in collaboration by the Interaction- and Communication-based Systems Group ([interactions.ics.unisg.ch](https://interactions.ics.unisg.ch)) at the University of St.Gallen ([ics.unisg.ch](https://ics.unisg.ch)).
+
+## License
+
+All source code in this repository is licensed under the Apache License 2.0 (see [LICENSE](https://github.com/Interactions-HSG/blearvis/blob/main/LICENSE)) if not stated otherwise.
+Included third-party code may be licensed differently (see the respective files and folders).
