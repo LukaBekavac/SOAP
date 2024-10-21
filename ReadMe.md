@@ -63,7 +63,7 @@ If you use/modify this source code or refer to our paper, please add a reference
 
 If you have questions about the prototype or the publication, feel free to contact Luka Bekavac ([lukajurelars.bekavac@student.unisg.ch](mailto:lukajurelars.bekavac@student.unisg.ch)).
 
-This research was conducted by the Interaction- and Communication-based Systems Group ([interactions.ics.unisg.ch](https://interactions.ics.unisg.ch)) at the University of St.Gallen ([ics.unisg.ch](https://ics.unisg.ch)).
+This research was conducted by the Interaction- and Communication-based Systems Group ([interactions.ics.unisg.ch](https://interactions.ics.unisg.ch)) at the University of St.Gallen ([ics.unisg.ch](https://ics.unisg.ch)) in collaboration with the Legal Design & Code Lab ([https://wp.unil.ch/legaldesignandcodelab/](https://wp.unil.ch/legaldesignandcodelab/)) at the University of Lausanne ([https://unil.ch](https://unil.ch)).
 
 ## License
 
