@@ -42,11 +42,28 @@ The following table outlines the key classes and their respective functions:
 
 Before deploying a new prompt for creating filter bubbles, it is recommended to conduct reliability testing with the prompt and the multimodal language model (LLM). Code for both inter-reliability and intra-reliability testing can be found in the `/reliability-evaluation/` directory.
 
+## Reference
+
+If you use/modify this source code or refer to our paper, please add a reference to our publication:
+> Luka Bekavac, Kimberly Garcia, Jannis Strecker, Simon Mayer, and Aurelia Tamò-Larrieux. 2024. From Walls to Windows: Creating Transparency to Understand Filter Bubbles in Social Media. In NORMalize 2024: The Second Workshop on the Normative Design and Evaluation of Recommender Systems, co-located with the ACM Conference on Recommender Systems 2024 (RecSys 2024), October 18, 2024. Bari, Italy. https://www.alexandria.unisg.ch/handle/20.500.14171/120987
+
+```bibtex
+@inproceedings{bekavac2024,
+  title = {From {{Walls}} to {{Windows}}: {{Creating Transparency}} to {{Understand Filter Bubbles}} in {{Social Media}}},
+  booktitle = {{{NORMalize}} 2024: {{The Second Workshop}} on the {{Normative Design}} and {{Evaluation}} of {{Recommender Systems}}, Co-Located with the {{ACM Conference}} on {{Recommender Systems}} 2024 ({{RecSys}} 2024)},
+  author = {Bekavac, Luka and Garcia, Kimberly and Strecker, Jannis and Mayer, Simon and {Tam{\`o}-Larrieux}, Aurelia},
+  year = {2024},
+  month = oct,
+  address = {Bari, Italy},
+  abstract = {Social media platforms play a significant role in shaping public opinion and societal norms. Understanding this influence requires examining the diversity of content that users are exposed to. However, studying filter bubbles in social media recommender systems has proven challenging, despite extensive research in this area. In this work, we introduce SOAP (System for Observing and Analyzing Posts), a novel system designed to collect and analyze very large online platforms (VLOPs) data to study filter bubbles at scale. Our methodology aligns with established definitions and frameworks, allowing us to comprehensively explore and log filter bubbles data. From an input prompt referring to a topic, our system is capable of creating and navigating filter bubbles using a multimodal LLM. We demonstrate SOAP by creating three distinct filter bubbles in the feed of social media users, revealing a significant decline in topic diversity as fast as in 60min of scrolling. Furthermore, we validate the LLM analysis of posts through an inter- and intra-reliability testing. Finally, we open source SOAP as a robust tool for facilitating further empirical studies on filter bubbles in social media.}
+}
+```
+
 ## Contact
 
 If you have questions about the prototype or the publication, feel free to contact Luka Bekavac ([lukajurelars.bekavac@student.unisg.ch](mailto:lukajurelars.bekavac@student.unisg.ch)).
 
-This research was conducted in collaboration by the Interaction- and Communication-based Systems Group ([interactions.ics.unisg.ch](https://interactions.ics.unisg.ch)) at the University of St.Gallen ([ics.unisg.ch](https://ics.unisg.ch)).
+This research was conducted by the Interaction- and Communication-based Systems Group ([interactions.ics.unisg.ch](https://interactions.ics.unisg.ch)) at the University of St.Gallen ([ics.unisg.ch](https://ics.unisg.ch)).
 
 ## License
 
